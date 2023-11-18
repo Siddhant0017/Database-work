@@ -12,10 +12,8 @@ This project demonstrates the integration of APIs for user authentication and cu
   - [Installation](#installation)
 - [Usage](#usage)
 - [API Integration](#api-integration)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -76,5 +74,5 @@ Fork the project.
 Create a new branch.
 Make your changes and commit them.
 Push to your fork and submit a pull request.
-# License
+## License
 This project is licensed under the MIT License.
