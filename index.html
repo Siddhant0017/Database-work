@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>API Integration</title>
+</head>
+<body>
+
+    <h1>API Integration Assignment</h1>
+
+    <div id="login-section">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="login">Login ID:</label>
+            <input type="text" id="login" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <br>
+            <button type="button" onclick="authenticateUser()">Login</button>
+        </form>
+    </div>
+
+    <div id="customer-section" style="display: none;">
+        <h2>Customer Operations</h2>
+        <button onclick="getCustomerList()">Get Customer List</button>
+        <br>
+        <button onclick="createCustomer()">Create Customer</button>
+        <br>
+        <button onclick="deleteCustomer()">Delete Customer</button>
+        <br>
+        <button onclick="updateCustomer()">Update Customer</button>
+        <br>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
